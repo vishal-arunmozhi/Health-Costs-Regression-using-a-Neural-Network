@@ -86,7 +86,7 @@ def create_model():
         # layer 2
         Dense(units=64, activation='relu'),
 
-        # layer 5 - output layer
+        # layer 3 - output layer
         Dense(1)
     ]
 
